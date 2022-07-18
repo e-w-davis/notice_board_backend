@@ -18,7 +18,7 @@ class NoticesController < ApplicationController
     @notice = Notice.new(notice_params)
 
     if @notice.save
-      render json: @notice, status: :created
+      render json: @notice, status: :created, location: @notice
     else
       render json: @notice.errors, status: :unprocessable_entity
     end
