@@ -1,24 +1,12 @@
-# README
+# Board of Notices Back-End
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This code serves as the backend for this running application.
+[Board of Notices](https://board-of-notices.netlify.app/)
 
-Things you may want to cover:
+## Link to API
+[Back-End](https://board-of-notices.herokuapp.com/notices)
 
-* Ruby version
 
-* System dependencies
+* Ruby version - 2.7.6
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Database created in SQL
